@@ -23,7 +23,7 @@ export const GameResult = ({ game }: Props) => {
           <Typography gutterBottom component="div" maxWidth={'75%'}>
             {name}
           </Typography>
-          <Typography gutterBottom component="div">
+          <Typography gutterBottom component="div" sx={{fontWeight: 'bold'}}>
             {shelf}
           </Typography>
         </Stack>

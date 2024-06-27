@@ -11,7 +11,7 @@ interface Props {
 
 export const Games = ({ filter }: Props) => { 
 
-  const [take, setTake] = useState(5)
+  const [take, setTake] = useState(10)
   const [skip, setSkip] = useState(0)
 
   const games = data.games
