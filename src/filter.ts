@@ -5,7 +5,7 @@ export function applyFilters(games: Game[], gameFilter: GameFilter): Game[] {
   const { name, minPlayers, maxPlayers} = gameFilter
 
   if(name?.length){
-    games = games.filter(x => x.name.includes(name))
+    games = games.filter(x => x.name.toLocaleLowerCase().includes(name.toLocaleLowerCase()))
   }
 
   if(minPlayers) {
