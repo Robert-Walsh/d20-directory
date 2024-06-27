@@ -1,0 +1,854 @@
+{
+  "games": [
+    {
+      "name": "Friday",
+      "category": "Card & Dice",
+      "isExpansion": false,
+      "shelf": "25G",
+      "minPlayers": 1,
+      "maxPlayers": 1,
+      "maxPlayTime": 25,
+      "agePlus": 13
+    },
+    {
+      "name": "...And Then We Held Hands",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20C",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 45,
+      "agePlus": 12
+    },
+    {
+      "name": "7 Wonders Duel",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20D",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 10
+    },
+    {
+      "name": "7 Wonders Duel: Pantheon",
+      "category": "2 Player",
+      "isExpansion": true,
+      "shelf": "21AA",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 10
+    },
+    {
+      "name": "A Little Wordy",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20C",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 15,
+      "agePlus": 10
+    },
+    {
+      "name": "Agricola: All Creatures Big and Small",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20E",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 13
+    },
+    {
+      "name": "Android: Netrunner",
+      "category": "Strategy",
+      "isExpansion": false,
+      "shelf": "9C",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 60,
+      "agePlus": 14
+    },
+    {
+      "name": "Arkham Horror - The Card Game",
+      "category": "Adventure/Heavy",
+      "isExpansion": false,
+      "shelf": "8C",
+      "minPlayers": 1,
+      "maxPlayers": 2,
+      "maxPlayTime": 120,
+      "agePlus": 14
+    },
+    {
+      "name": "Arkham Horror - The Card Game: The Black Goat Of The Woods",
+      "category": "Adventure/Heavy",
+      "isExpansion": true,
+      "shelf": "8C",
+      "minPlayers": 1,
+      "maxPlayers": 2,
+      "maxPlayTime": 120,
+      "agePlus": 14
+    },
+    {
+      "name": "Arkham Horror - The Card Game: The Curse of the Dark Pharoh",
+      "category": "Adventure/Heavy",
+      "isExpansion": true,
+      "shelf": "8C",
+      "minPlayers": 1,
+      "maxPlayers": 2,
+      "maxPlayTime": 120,
+      "agePlus": 14
+    },
+    {
+      "name": "Arkham Horror - The Card Game: The Lurker at the Threshold",
+      "category": "Adventure/Heavy",
+      "isExpansion": true,
+      "shelf": "8C",
+      "minPlayers": 1,
+      "maxPlayers": 2,
+      "maxPlayTime": 120,
+      "agePlus": 14
+    },
+    {
+      "name": "Backgammon",
+      "category": "Classic",
+      "isExpansion": false,
+      "shelf": "32B",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 10
+    },
+    {
+      "name": "BANG! The Duel",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20C",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 8
+    },
+    {
+      "name": "Batman: Arkham City Escape",
+      "category": "Adventure/Heavy",
+      "isExpansion": false,
+      "shelf": "10F",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 40,
+      "agePlus": 15
+    },
+    {
+      "name": "Battlelore",
+      "category": "Adventure/Heavy",
+      "isExpansion": false,
+      "shelf": "10E",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 60,
+      "agePlus": 10
+    },
+    {
+      "name": "Battlelore: Call To Arms",
+      "category": "Adventure/Heavy",
+      "isExpansion": true,
+      "shelf": "10E",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 60,
+      "agePlus": 10
+    },
+    {
+      "name": "Battles Of Westeros: A Battlelore Game",
+      "category": "Adventure/Heavy",
+      "isExpansion": false,
+      "shelf": "8E",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 120,
+      "agePlus": 14
+    },
+    {
+      "name": "Battleship Command",
+      "category": "Classic",
+      "isExpansion": false,
+      "shelf": "32B",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 8
+    },
+    {
+      "name": "Blokus Duo",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20A",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 15,
+      "agePlus": 5
+    },
+    {
+      "name": "Blood Bowl",
+      "category": "Adventure/Heavy",
+      "isExpansion": false,
+      "shelf": "9B",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 60,
+      "agePlus": 12
+    },
+    {
+      "name": "Catan Starfarers Duel",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20F",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 75,
+      "agePlus": 12
+    },
+    {
+      "name": "Cathedral",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20E",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 8
+    },
+    {
+      "name": "Chess",
+      "category": "Classic",
+      "isExpansion": false,
+      "shelf": "32B",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 60,
+      "agePlus": 10
+    },
+    {
+      "name": "Draughts",
+      "category": "Classic",
+      "isExpansion": false,
+      "shelf": "32B",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 60,
+      "agePlus": 10
+    },
+    {
+      "name": "Colour Chess + Lure",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20F",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 14
+    },
+    {
+      "name": "Connect 4",
+      "category": "Classic",
+      "isExpansion": false,
+      "shelf": "32C",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 10,
+      "agePlus": 7
+    },
+    {
+      "name": "Consentacle",
+      "category": "Over 18",
+      "isExpansion": false,
+      "shelf": "7A",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 18
+    },
+    {
+      "name": "Critical Mass",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20F",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 14
+    },
+    {
+      "name": "Deck Building: The Deck Building Game",
+      "category": "Card & Dice",
+      "isExpansion": false,
+      "shelf": "25B",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 20,
+      "agePlus": 13
+    },
+    {
+      "name": "Downfall",
+      "category": "Classic",
+      "isExpansion": false,
+      "shelf": "32D",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 15,
+      "agePlus": 7
+    },
+    {
+      "name": "Duelosaur Island",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20D",
+      "minPlayers": 1,
+      "maxPlayers": 2,
+      "maxPlayTime": 60,
+      "agePlus": 10
+    },
+    {
+      "name": "Expedition Altiplano",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20B",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 10
+    },
+    {
+      "name": "Fields Of Arle",
+      "category": "Strategy",
+      "isExpansion": false,
+      "shelf": "6B",
+      "minPlayers": 1,
+      "maxPlayers": 2,
+      "maxPlayTime": 60,
+      "agePlus": 13
+    },
+    {
+      "name": "Fog of Love",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20E",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 120,
+      "agePlus": 17
+    },
+    {
+      "name": "The Fox in the Forest",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20B",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 10
+    },
+    {
+      "name": "A Game of Thrones: The Card Game",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20D",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 60,
+      "agePlus": 14
+    },
+    {
+      "name": "Guess Who",
+      "category": "Classic",
+      "isExpansion": false,
+      "shelf": "32B",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 20,
+      "agePlus": 6
+    },
+    {
+      "name": "Harry Potter Hogwarts Battle: Defence Against the Dark Arts",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20C",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 60,
+      "agePlus": 11
+    },
+    {
+      "name": "Hive Carbon",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20B",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 12
+    },
+    {
+      "name": "Hive Carbon: The Mosquito",
+      "category": "2 Player",
+      "isExpansion": true,
+      "shelf": "20A",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 20,
+      "agePlus": 9
+    },
+    {
+      "name": "Hive Carbon: The Pillbug",
+      "category": "2 Player",
+      "isExpansion": true,
+      "shelf": "20A",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 20,
+      "agePlus": 9
+    },
+    {
+      "name": "Jaipur",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20A",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 12
+    },
+    {
+      "name": "Justice League Hero Dice: Batman",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20B",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 15,
+      "agePlus": 10
+    },
+    {
+      "name": "Justice League Hero Dice: Superman",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20B",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 15,
+      "agePlus": 10
+    },
+    {
+      "name": "Kero",
+      "category": "Strategy",
+      "isExpansion": false,
+      "shelf": "10B",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 9
+    },
+    {
+      "name": "Keyforge: 2 Player Starter",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "23A",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 45,
+      "agePlus": 14
+    },
+    {
+      "name": "Kingdomino Duel",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20C",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 20,
+      "agePlus": 8
+    },
+    {
+      "name": "KLASK",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "21AA",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 10,
+      "agePlus": 8
+    },
+    {
+      "name": "Lost Cities",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20D",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 40,
+      "agePlus": 10
+    },
+    {
+      "name": "Mancala",
+      "category": "Classic",
+      "isExpansion": false,
+      "shelf": "32D",
+      "minPlayers": 1,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 12
+    },
+    {
+      "name": "Mastermind",
+      "category": "Classic",
+      "isExpansion": false,
+      "shelf": "32B",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 15,
+      "agePlus": 8
+    },
+    {
+      "name": "Match Madness Duo",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20D",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 20,
+      "agePlus": 10
+    },
+    {
+      "name": "Mijnlieff",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20B",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 10,
+      "agePlus": 6
+    },
+    {
+      "name": "Naga Raja",
+      "category": "Strategy",
+      "isExpansion": false,
+      "shelf": "6C",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 9
+    },
+    {
+      "name": "One Deck Dungeon",
+      "category": "Card & Dice",
+      "isExpansion": false,
+      "shelf": "25A",
+      "minPlayers": 1,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 14
+    },
+    {
+      "name": "Onitama",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20A",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 15,
+      "agePlus": 14
+    },
+    {
+      "name": "Onitama: Sensei's Path",
+      "category": "2 Player",
+      "isExpansion": true,
+      "shelf": "20A",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 15,
+      "agePlus": 14
+    },
+    {
+      "name": "Onitama: Way of the Wind",
+      "category": "2 Player",
+      "isExpansion": true,
+      "shelf": "20A",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 15,
+      "agePlus": 14
+    },
+    {
+      "name": "Othello",
+      "category": "Classic",
+      "isExpansion": false,
+      "shelf": "32B",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 8
+    },
+    {
+      "name": "Pandemic: Rapid Response",
+      "category": "Co-op",
+      "isExpansion": true,
+      "shelf": "26C",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 20,
+      "agePlus": 8
+    },
+    {
+      "name": "Patchwork",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20A",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 8
+    },
+    {
+      "name": "Pokémon TCG: Battle Academy",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "23A",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 6
+    },
+    {
+      "name": "Pokemon TCG: Sun & Moon Unbroken Bonds, Battle Mind",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20G",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 20,
+      "agePlus": 6
+    },
+    {
+      "name": "Pokemon TCG: Sun & Moon Unbroken Bonds, Lightning Loop",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20G",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 20,
+      "agePlus": 6
+    },
+    {
+      "name": "Raptor",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20D",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 25,
+      "agePlus": 9
+    },
+    {
+      "name": "Sky Team",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20A",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 15,
+      "agePlus": 12
+    },
+    {
+      "name": "Star Realms",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20B",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 20,
+      "agePlus": 12
+    },
+    {
+      "name": "Star Wars Armada",
+      "category": "Adventure/Heavy",
+      "isExpansion": false,
+      "shelf": "8D",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 120,
+      "agePlus": 14
+    },
+    {
+      "name": "Star Wars DeckBuilding Game",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20D",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 12
+    },
+    {
+      "name": "Star Wars Legion",
+      "category": "Adventure/Heavy",
+      "isExpansion": false,
+      "shelf": "8D",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 120,
+      "agePlus": 14
+    },
+    {
+      "name": "Star Wars Rebellion",
+      "category": "Adventure/Heavy",
+      "isExpansion": false,
+      "shelf": "8D",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 180,
+      "agePlus": 15
+    },
+    {
+      "name": "Star Wars Rebellion: Rise of the Empire",
+      "category": "Adventure/Heavy",
+      "isExpansion": true,
+      "shelf": "8D",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 180,
+      "agePlus": 15
+    },
+    {
+      "name": "Star Wars X-Wing",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20F",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 45,
+      "agePlus": 14
+    },
+    {
+      "name": "Targi",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20F",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 60,
+      "agePlus": 13
+    },
+    {
+      "name": "Tatsu",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20D",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 8
+    },
+    {
+      "name": "Tides Of Time",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20F",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 20,
+      "agePlus": 10
+    },
+    {
+      "name": "Tiny Ninjas",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20C",
+      "minPlayers": 1,
+      "maxPlayers": 2,
+      "maxPlayTime": 10,
+      "agePlus": 8
+    },
+    {
+      "name": "Tug!",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20C",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 20,
+      "agePlus": 12
+    },
+    {
+      "name": "Turf War",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20B",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 14
+    },
+    {
+      "name": "Twilight Struggle",
+      "category": "Strategy",
+      "isExpansion": false,
+      "shelf": "7C",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 120,
+      "agePlus": 15
+    },
+    {
+      "name": "Tyrus",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20F",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 12
+    },
+    {
+      "name": "Walking Dead: All Out War",
+      "category": "Adventure/Heavy",
+      "isExpansion": false,
+      "shelf": "10C",
+      "minPlayers": 1,
+      "maxPlayers": 2,
+      "maxPlayTime": 60,
+      "agePlus": 14
+    },
+    {
+      "name": "Warhammer Underworlds Shadespire",
+      "category": "Adventure/Heavy",
+      "isExpansion": false,
+      "shelf": "9B",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 30,
+      "agePlus": 12
+    },
+    {
+      "name": "Wingspan Asia",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "20E",
+      "minPlayers": 1,
+      "maxPlayers": 2,
+      "maxPlayTime": 70,
+      "agePlus": 14
+    },
+    {
+      "name": "Yu-Gi-Oh! Decks",
+      "category": "2 Player",
+      "isExpansion": false,
+      "shelf": "23A",
+      "minPlayers": 2,
+      "maxPlayers": 2,
+      "maxPlayTime": 45,
+      "agePlus": 12
+    }
+  ]
+}

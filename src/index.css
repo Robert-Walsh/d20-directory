@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.title {
+  text-align: center;
+  font-family: 'ABeeZee', Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: #B7121C !important;
+  letter-spacing: 1px;
+  line-height: 0.9em;
+  margin-top: 0%;
+  padding-top: 25px;
+}
+
+.subtitle {
+  text-align: center;
+  font-family: 'ABeeZee', Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #F1DEAB !important;
+  letter-spacing: 1px;
+  line-height: 0.9em;
+}
+
+.logo {
+  max-width: 200px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;  
+  display: block;
+
+}
+
+label {
+  margin-right: 10px;
+}
+
+button {
+  min-width: 20px;
+  min-height: 20px;
+}

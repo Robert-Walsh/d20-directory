@@ -1,26 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import { useMediaQuery } from 'react-responsive'
+import MediaQuery from 'react-responsive'
+import { Games } from './Games'
+import { Search } from './Search'
+import { GameFilter } from './Types'
 
-function App() {
+export const App = () => {
+  const [filter, setFilter] = useState<GameFilter>({
+    name: '',
+    category: '',
+    isExpansion: false,
+    minPlayers: 1,
+    maxPlayers: 6,
+    maxPlayTime: undefined,
+    agePlus: undefined
+  })
+
+  const updateFilter = (newFilter: GameFilter) => {
+    setFilter(newFilter)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div style={{'backgroundColor': '#B7121C' }}>
+      <div style={{'backgroundColor': '#F1DEAB', width: '100%', color: '#F1DEAB', height:'80px' }}>
+        <h1 className='title' >D20 - Watford</h1>
+      </div>
+      <img src={'/raoul.png'} className="logo" alt="D20 Logo" />
 
-export default App;
+      <h3 className='subtitle'> Games Directory</h3>
+      <MediaQuery minWidth={1224}>
+        <Search filter={filter} updateFilter={updateFilter}/>
+        <Games filter={filter}/>
+      </MediaQuery>
+      
+      <MediaQuery maxWidth={1224}>
+        <Search filter={filter} updateFilter={updateFilter}/>
+        <Games filter={filter}/>
+      </MediaQuery>
+    </div>
+  )
+}
