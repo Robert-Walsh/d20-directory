@@ -1,8 +1,6 @@
 
 import { useState } from 'react'
 import data from './data.json'
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
 import { GameResult } from './GameResult';
 import { GameFilter } from './Types';
 import { applyFilters } from './filter';

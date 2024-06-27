@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import { useMediaQuery } from 'react-responsive'
+import { useState } from 'react'
 import MediaQuery from 'react-responsive'
 import { Games } from './Games'
 import { Search } from './Search'

@@ -3,11 +3,6 @@ import Accordion from '@mui/material/Accordion';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import { GameFilter } from './Types';
 import { useState } from 'react';
-import {
-  Unstable_NumberInput as BaseNumberInput,
-  NumberInputProps,
-  numberInputClasses,
-} from '@mui/base/Unstable_NumberInput';
 
 interface Props {
   filter: GameFilter;
