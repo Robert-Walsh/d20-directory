@@ -38,8 +38,15 @@ export const App = () => {
 
       <h3 className='subtitle'> Games Directory</h3>
       <MediaQuery minWidth={1224}>
-        <Search filter={filter} updateFilter={updateFilter}/>
-        <Games filter={filter} selectedStore={selectedStore}/>
+        {/* <Search filter={filter} updateFilter={updateFilter}/>
+        <Games filter={filter} selectedStore={selectedStore}/> */}
+        <div style={{height: '100%', backgroundColor: '#F1DEAB'}}>
+          <h5 style={{marginTop: '20px', padding: '30px', textAlign: 'center'}}>This app was built with mobile in mind first! Please check it out on your phone and come back later for the wide-screen version. </h5>
+        </div>
+
+        <div style={{height: '100%', backgroundColor: '#B7121C', color: '#B7121C'}}>
+        -
+        </div>
       </MediaQuery>
       
       <MediaQuery maxWidth={1224}>
