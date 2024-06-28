@@ -26,7 +26,7 @@ export const GameResult = ({ game }: Props) => {
   const { name, category, shelf, minPlayers, maxPlayers, maxPlayTime, isExpansion, agePlus, bggLink } = game
 
   return (
-    <Card variant="outlined" sx={{marginTop: '10px'}}>
+    <Card variant="outlined" sx={{margin: '10px 8px'}}>
       <Box sx={{ p: 2, backgroundColor: 'white'}}>
         <Stack direction="row" justifyContent="space-between" alignItems="center">
           <Typography gutterBottom component="div" maxWidth={'75%'}>

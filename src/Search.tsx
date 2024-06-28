@@ -25,22 +25,8 @@ export const Search = ({ filter, updateFilter }: Props ) => {
     updateFilter({...filter, categories: selectedValues });
   };
 
-
-  const categorySelector = (
-    <div>
-      <select multiple value={filter.categories} onChange={handleChange}>
-        {categoriesOptions.map((category, index) => (
-          <option key={index} value={category}>
-            {category}
-          </option>
-        ))}
-      </select>
-      <p>Selected Categories: {filter.categories.join(', ')}</p>
-    </div>
-  );
-
   return (
-    <Accordion expanded={expanded} onChange={() => setExpanded(!expanded)}>
+    <Accordion expanded={expanded} onChange={() => setExpanded(!expanded)} sx={{margin: '10px 8px', borderRadius: '5px'}}>
       <AccordionSummary
           expandIcon={<ArrowDownwardIcon />}
           aria-controls="panel1-content"
