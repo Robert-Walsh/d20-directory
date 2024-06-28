@@ -19,14 +19,15 @@ export const Games = ({ filter, selectedStore }: Props) => {
 
   const storeData = selectedStore === StoreName.Watford ? watfordData : uxbridgeData
   // Assuming data.games is an array of objects where each object has a category property of type string
-  const games = storeData.games.map(x => {
+  let games = storeData.games.map(x => {
     // Type assertion to convert the string to Category enum
     const category: Category = Category[x.category as keyof typeof Category];
 
     return { ...x, category };
   });
 
-  const filteredGames = applyFilters(games, filter);
+  let filteredGames = applyFilters(games, filter);
+  filteredGames = filteredGames.sort((a, b) => a.name.localeCompare(b.name));
 
   const paginatedGames = filteredGames.slice(skip, skip + take);
 

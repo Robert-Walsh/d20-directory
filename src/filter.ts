@@ -9,7 +9,7 @@ export function applyFilters(games: Game[], gameFilter: GameFilter): Game[] {
   }
 
   if(minPlayers) {
-    games = games.filter(x => x.minPlayers >= minPlayers)
+    games = games.filter(x => minPlayers >= x.minPlayers)
   }
 
   if(maxPlayers){ 
@@ -17,7 +17,7 @@ export function applyFilters(games: Game[], gameFilter: GameFilter): Game[] {
       if(!x.maxPlayers){ 
         return false
       }
-      return x.maxPlayers <= maxPlayers
+      return maxPlayers <= x.maxPlayers
     })
   }
 
