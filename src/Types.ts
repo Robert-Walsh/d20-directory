@@ -39,6 +39,10 @@ export enum Category {
 
 export const categoriesOptions = getEnumValues(Category);
 
+export const enum StoreName {
+  Watford = "Watford", 
+  Uxbridge = "Uxbridge"
+}
 
 function getEnumValues(enumType: any): string[] {
   return Object.values(enumType);

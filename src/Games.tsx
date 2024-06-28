@@ -1,21 +1,25 @@
 
 import { useState } from 'react'
-import data from './data.json'
+import watfordData from './watfordData.json'
+import uxbridgeData from './uxbridgeData.json'
 import { GameResult } from './GameResult';
-import { Category, GameFilter } from './Types';
+import { Category, GameFilter, StoreName } from './Types';
 import { applyFilters } from './filter';
 
 interface Props {
   filter: GameFilter
+  selectedStore: StoreName
 }
 
-export const Games = ({ filter }: Props) => { 
+export const Games = ({ filter, selectedStore }: Props) => { 
 
   const [take, setTake] = useState(10)
   const [skip, setSkip] = useState(0)
 
+
+  const storeData = selectedStore === StoreName.Watford ? watfordData : uxbridgeData
   // Assuming data.games is an array of objects where each object has a category property of type string
-  const games = data.games.map(x => {
+  const games = storeData.games.map(x => {
     // Type assertion to convert the string to Category enum
     const category: Category = Category[x.category as keyof typeof Category];
 

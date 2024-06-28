@@ -11,7 +11,7 @@ interface Props {
 }
 
 export const Search = ({ filter, updateFilter }: Props ) => {
-  const [expanded, setExpanded] = useState(true)
+  const [expanded, setExpanded] = useState(false)
 
 
   const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
