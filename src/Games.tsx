@@ -38,7 +38,7 @@ export const Games = ({ filter, selectedStore }: Props) => {
 
       <div className="navigate-buttons-container">
         <button className="button" onClick={() => setSkip(Math.max(skip - take, 0))} disabled={skip === 0}>Back</button>
-        <button className="button" onClick={() => setSkip(skip + take)} disabled={skip + take >= games.length}>Next</button>
+        <button className="button" onClick={() => setSkip(skip + take)} disabled={skip + take >= filteredGames.length}>Next</button>
       </div>
     </div>
   )

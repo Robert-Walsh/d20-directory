@@ -10,6 +10,11 @@ import { PiLegoFill } from "react-icons/pi";
 import { BsPersonFill } from "react-icons/bs";
 import { LiaBirthdayCakeSolid } from "react-icons/lia";
 import { IoMdTimer } from "react-icons/io";
+import { FaChess, FaHandPaper, FaHandsHelping, FaMask, FaQuestion, FaUserFriends } from "react-icons/fa";
+import { GiThink } from "react-icons/gi";
+import { MdChildCare } from "react-icons/md";
+import { PiUsersThree } from "react-icons/pi";
+import { RiBeerLine } from "react-icons/ri";
 
 
 interface Props {
@@ -61,6 +66,40 @@ export const GameResult = ({ game }: Props) => {
 
 function getCategoryIcon(category: Category) {
 
+
+  switch (category) {
+    case Category.Party:
+      return <GiPartyPopper />;
+    case Category.LightStrategy:
+      return <GiSpikedDragonHead />;
+    case Category.CoOp:
+      return <FaHandsHelping />;
+    case Category.AdventureHeavy:
+      return <GiHillConquest />;
+    case Category.TwoPlayer:
+      return <FaUserFriends />;
+    case Category.Strategy:
+      return <GiThink />;
+    case Category.FamilyAndKids:
+      return <MdChildCare />;
+    case Category.ThreePlayer:
+      return <PiUsersThree />;
+    case Category.CardAndDice:
+      return <GiDiceFire />;
+    case Category.Trivia:
+      return <FaQuestion />;
+    case Category.Over18:
+      return <RiBeerLine />;
+    case Category.Classic:
+      return <FaChess />;
+    case Category.Dexterity:
+      return <FaHandPaper />;
+    case Category.SocialDeduction:
+      return <FaMask />;
+    default:
+      return <PiLegoFill />;
+  }
+
   if(category === Category.Party){
     return <GiPartyPopper />
   }
@@ -73,6 +112,8 @@ function getCategoryIcon(category: Category) {
   if(category === Category.CardAndDice){
     return <GiDiceFire />
   }
+  if(category === Category.Classic){
 
-  return (<PiLegoFill/>)
+  }
+
 }

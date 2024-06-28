@@ -34,7 +34,9 @@ export enum Category {
   CardAndDice = "Card & Dice",
   Trivia = "Trivia",
   Over18 = "Over 18",
-  Classic = "Classic"
+  Classic = "Classic",
+  Dexterity = "Dexterity",
+  SocialDeduction = "Social Deduction"
 }
 
 export const categoriesOptions = getEnumValues(Category);

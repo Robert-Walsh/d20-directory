@@ -12,6 +12,9 @@ import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { StoreName } from './Types';
+import { FaBridge } from "react-icons/fa6";
+import { GiStagHead } from "react-icons/gi";
+
 
 interface Props {
   setSelectedStore: (store: StoreName) => void
@@ -31,9 +34,9 @@ export default function D20Drawer({ setSelectedStore }: Props) {
           <ListItem key={store} disablePadding>
             <ListItemButton onClick={() => setSelectedStore(store)}>
               <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+                {index % 2 === 0 ? <GiStagHead size="33px" color='#7f8c8d'/> : <FaBridge size="30px" color='#7f8c8d'/>}
               </ListItemIcon>
-              <ListItemText primary={store} />
+              <ListItemText primary={store} color='#7f8c8d'/>
             </ListItemButton>
           </ListItem>
         ))}
@@ -56,7 +59,7 @@ export default function D20Drawer({ setSelectedStore }: Props) {
 
   return (
     <div>
-      <Button onClick={toggleDrawer(true)} ><GiHamburgerMenu size="large" style={{width: '25px', height: '30px', color: 'black', marginTop: '20px'}}/></Button>
+      <Button onClick={toggleDrawer(true)} ><GiHamburgerMenu size="large" style={{width: '25px', height: '30px', color: '#2c3e50', marginTop: '20px'}}/></Button>
       <Drawer open={open} onClose={toggleDrawer(false)}>
         {DrawerList}
       </Drawer>
