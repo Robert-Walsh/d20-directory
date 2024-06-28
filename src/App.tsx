@@ -7,7 +7,7 @@ import { GameFilter } from './Types'
 export const App = () => {
   const [filter, setFilter] = useState<GameFilter>({
     name: '',
-    category: '',
+    categories: [],
     isExpansion: false,
     minPlayers: 1,
     maxPlayers: 6,

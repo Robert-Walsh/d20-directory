@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import data from './data.json'
 import { GameResult } from './GameResult';
-import { GameFilter } from './Types';
+import { Category, GameFilter } from './Types';
 import { applyFilters } from './filter';
 
 interface Props {
@@ -14,20 +14,23 @@ export const Games = ({ filter }: Props) => {
   const [take, setTake] = useState(10)
   const [skip, setSkip] = useState(0)
 
-  const games = data.games
-  const filteredGames = applyFilters(games, filter)
+  // Assuming data.games is an array of objects where each object has a category property of type string
+  const games = data.games.map(x => {
+    // Type assertion to convert the string to Category enum
+    const category: Category = Category[x.category as keyof typeof Category];
+
+    return { ...x, category };
+  });
+
+  const filteredGames = applyFilters(games, filter);
 
   const paginatedGames = filteredGames.slice(skip, skip + take);
 
   return (
   <div>
       {paginatedGames.map((game, index) => (
-        // <Paper key={index} elevation={3}>{game.Name}</Paper>
-
-        <GameResult game={game}/>
+        <GameResult game={game} key={index}/>
       ))}
-
-
 
       <div className="navigate-buttons-container">
         <button className="button" onClick={() => setSkip(Math.max(skip - take, 0))} disabled={skip === 0}>Back</button>
