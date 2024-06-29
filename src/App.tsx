@@ -28,9 +28,12 @@ export const App = () => {
   const updateStore = (newStore: StoreName) => {
     setSelectedStore(newStore)
   }
+
   return (
     <div style={{'backgroundColor': '#B7121C' }}>
-      <div style={{'backgroundColor': '#F1DEAB', width: '100%', color: '#F1DEAB', height:'80px', display: 'flex' }}>
+      <div style={{'backgroundColor': '#F1DEAB', width: '100%', color: '#F1DEAB', height:'80px', display: 'flex', 
+        backgroundImage: 'url(./brick.png)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}}>
+
         <D20Drawer setSelectedStore={updateStore}/>
         <h1 className='title' >D20 - {selectedStore}</h1>
       </div>

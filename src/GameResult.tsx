@@ -50,7 +50,7 @@ export const GameResult = ({ game }: Props) => {
         </Typography>
       </Box>
       <Divider />
-      <Box sx={{ p: 2, backgroundColor: '#F1DEAB'}}>
+      <Box sx={{ p: 2, backgroundColor: '#F1DEAB', backgroundImage: 'url(./brick.png)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}}>
         <div className='flex-container'>
           <Chip label={`${category}`} icon={getCategoryIcon(category)} size="medium" /> 
           <Chip label={`Min: ${minPlayers}`} icon={<BsPersonFill />} size="medium" /> 
