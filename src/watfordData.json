@@ -600,7 +600,7 @@
       "isExpansion": false,
       "shelf": "20A",
       "minPlayers": 2,
-      "maxPlayers": null,
+      "maxPlayers": 2,
       "maxPlayTime": 15,
       "agePlus": 11,
       "bggLink": "https://boardgamegeek.com/boardgame/224037/codenames-duet"
@@ -1029,7 +1029,7 @@
       "isExpansion": false,
       "shelf": "20F",
       "minPlayers": 1,
-      "maxPlayers": null,
+      "maxPlayers": 4,
       "maxPlayTime": 120,
       "agePlus": 5,
       "bggLink": "https://bigpotato.com/pages/day-at-the-festival"
@@ -1381,7 +1381,7 @@
       "isExpansion": false,
       "shelf": "21D",
       "minPlayers": 2,
-      "maxPlayers": null,
+      "maxPlayers": 10,
       "maxPlayTime": 30,
       "agePlus": 8,
       "bggLink": "https://boardgamegeek.com/boardgame/12920/tension-crazy-naming-game"
@@ -1447,7 +1447,7 @@
       "isExpansion": false,
       "shelf": "22A",
       "minPlayers": 2,
-      "maxPlayers": null,
+      "maxPlayers": 20,
       "maxPlayTime": 30,
       "agePlus": 6,
       "bggLink": "https://bigpotato.com/gb/games/junior-colourbrain/"
@@ -1854,7 +1854,7 @@
       "isExpansion": false,
       "shelf": "23D",
       "minPlayers": 3,
-      "maxPlayers": null,
+      "maxPlayers": 8,
       "maxPlayTime": 30,
       "agePlus": 8,
       "bggLink": "https://boardgamegeek.com/boardgame/458/sherlock-holmes-card-game"
@@ -2668,8 +2668,8 @@
       "isExpansion": false,
       "shelf": "25E",
       "minPlayers": 2,
-      "maxPlayers": null,
-      "maxPlayTime": 10,
+      "maxPlayers": 10,
+      "maxPlayTime": 30,
       "agePlus": 8,
       "bggLink": "https://boardgamegeek.com/boardgame/2223/uno"
     },
@@ -2690,8 +2690,8 @@
       "isExpansion": false,
       "shelf": "25E",
       "minPlayers": 2,
-      "maxPlayers": null,
-      "maxPlayTime": 5,
+      "maxPlayers": 99,
+      "maxPlayTime": 20,
       "agePlus": 10,
       "bggLink": "https://boardgamegeek.com/boardgame/62871/zombie-dice"
     },
@@ -5506,8 +5506,8 @@
       "isExpansion": false,
       "shelf": "32E",
       "minPlayers": 2,
-      "maxPlayers": null,
-      "maxPlayTime": 30,
+      "maxPlayers": 4,
+      "maxPlayTime": 40,
       "agePlus": 14,
       "bggLink": "https://boardgamegeek.com/boardgame/12920/tension-crazy-naming-game"
     },
@@ -5550,8 +5550,8 @@
       "isExpansion": false,
       "shelf": "33A",
       "minPlayers": 2,
-      "maxPlayers": null,
-      "maxPlayTime": 45,
+      "maxPlayers": 6,
+      "maxPlayTime": 60,
       "agePlus": 15,
       "bggLink": "https://boardgamegeek.com/boardgame/87904/trivial-pursuit-master-edition"
     },
@@ -5560,8 +5560,8 @@
       "category": "Trivia",
       "isExpansion": false,
       "shelf": "33A",
-      "minPlayers": 4,
-      "maxPlayers": null,
+      "minPlayers": 3,
+      "maxPlayers": 7,
       "maxPlayTime": 25,
       "agePlus": 10,
       "bggLink": "https://boardgamegeek.com/boardgame/20100/wits-wagers"
@@ -5583,7 +5583,7 @@
       "isExpansion": false,
       "shelf": "33A",
       "minPlayers": 4,
-      "maxPlayers": null,
+      "maxPlayers": 10,
       "maxPlayTime": 20,
       "agePlus": 13,
       "bggLink": "https://boardgamegeek.com/boardgame/1111/taboo"
@@ -5594,7 +5594,7 @@
       "isExpansion": false,
       "shelf": "33B",
       "minPlayers": 4,
-      "maxPlayers": null,
+      "maxPlayers": 6,
       "maxPlayTime": 60,
       "agePlus": 12,
       "bggLink": "https://boardgamegeek.com/boardgame/1544/beyond-balderdash"
@@ -5605,8 +5605,8 @@
       "isExpansion": false,
       "shelf": "33B",
       "minPlayers": 4,
-      "maxPlayers": null,
-      "maxPlayTime": 30,
+      "maxPlayers": 8,
+      "maxPlayTime": 60,
       "agePlus": 12,
       "bggLink": "https://boardgamegeek.com/boardgame/6541/articulate"
     },
@@ -5616,7 +5616,7 @@
       "isExpansion": true,
       "shelf": "33B",
       "minPlayers": 4,
-      "maxPlayers": null,
+      "maxPlayers": 8,
       "maxPlayTime": 30,
       "agePlus": 12,
       "bggLink": "https://boardgamegeek.com/boardgame/14384/articulate-extra-pack-no-1"
@@ -5660,7 +5660,7 @@
       "isExpansion": false,
       "shelf": "33C",
       "minPlayers": 2,
-      "maxPlayers": null,
+      "maxPlayers": 8,
       "maxPlayTime": 15,
       "agePlus": 14,
       "bggLink": "https://boardgamegeek.com/boardgame/178900/codenames"
@@ -5671,7 +5671,7 @@
       "isExpansion": false,
       "shelf": "33C",
       "minPlayers": 2,
-      "maxPlayers": null,
+      "maxPlayers": 8,
       "maxPlayTime": 15,
       "agePlus": 14,
       "bggLink": "https://boardgamegeek.com/boardgame/220775/codenames-disney-family-edition"
@@ -5682,7 +5682,7 @@
       "isExpansion": false,
       "shelf": "33C",
       "minPlayers": 2,
-      "maxPlayers": null,
+      "maxPlayers": 8,
       "maxPlayTime": 15,
       "agePlus": 14,
       "bggLink": "https://boardgamegeek.com/boardgame/249821/codenames-harry-potter"
@@ -5759,7 +5759,7 @@
       "isExpansion": false,
       "shelf": "33D",
       "minPlayers": 2,
-      "maxPlayers": null,
+      "maxPlayers": 7,
       "maxPlayTime": 30,
       "agePlus": 6,
       "bggLink": "https://boardgamegeek.com/boardgame/22889/pictureka"
@@ -5869,7 +5869,7 @@
       "isExpansion": false,
       "shelf": "34A",
       "minPlayers": 1,
-      "maxPlayers": null,
+      "maxPlayers": 8,
       "maxPlayTime": 5,
       "agePlus": 12,
       "bggLink": "https://boardgamegeek.com/boardgame/1293/boggle"
@@ -5946,7 +5946,7 @@
       "isExpansion": false,
       "shelf": "34B",
       "minPlayers": 4,
-      "maxPlayers": null,
+      "maxPlayers": 10,
       "maxPlayTime": 45,
       "agePlus": 12,
       "bggLink": "https://boardgamegeek.com/boardgame/272438/blockbuster"
@@ -5957,7 +5957,7 @@
       "isExpansion": true,
       "shelf": "34B",
       "minPlayers": 4,
-      "maxPlayers": null,
+      "maxPlayers": 10,
       "maxPlayTime": 45,
       "agePlus": 12,
       "bggLink": "https://boardgamegeek.com/boardgame/313834/blockbuster-returns"
@@ -6001,7 +6001,7 @@
       "isExpansion": false,
       "shelf": "34B",
       "minPlayers": 2,
-      "maxPlayers": null,
+      "maxPlayers": 8,
       "maxPlayTime": 30,
       "agePlus": 14,
       "bggLink": "https://boardgamegeek.com/boardgame/182634/qwordie"
@@ -6023,7 +6023,7 @@
       "isExpansion": false,
       "shelf": "25X",
       "minPlayers": 1,
-      "maxPlayers": null,
+      "maxPlayers": 8,
       "maxPlayTime": 15,
       "agePlus": 6,
       "bggLink": "https://boardgamegeek.com/boardgame/2452/jenga"
@@ -6034,7 +6034,7 @@
       "isExpansion": false,
       "shelf": "34C",
       "minPlayers": 4,
-      "maxPlayers": null,
+      "maxPlayers": 20,
       "maxPlayTime": 30,
       "agePlus": 14,
       "bggLink": "https://boardgamegeek.com/boardgame/266071/obama-llama-2"
@@ -6111,7 +6111,7 @@
       "isExpansion": false,
       "shelf": "34D",
       "minPlayers": 2,
-      "maxPlayers": null,
+      "maxPlayers": 8,
       "maxPlayTime": 15,
       "agePlus": 14,
       "bggLink": "https://boardgamegeek.com/boardgame/198773/codenames-pictures"
@@ -6595,7 +6595,7 @@
       "isExpansion": false,
       "shelf": "5D",
       "minPlayers": 1,
-      "maxPlayers": null,
+      "maxPlayers": 4,
       "maxPlayTime": 120,
       "agePlus": 5,
       "bggLink": "https://bigpotato.com/pages/puzzle-answers"
@@ -6628,7 +6628,7 @@
       "isExpansion": false,
       "shelf": "5D",
       "minPlayers": 2,
-      "maxPlayers": null,
+      "maxPlayers": 99,
       "maxPlayTime": 30,
       "agePlus": 10,
       "bggLink": "https://boardgamegeek.com/boardgame/51/ricochet-robots"
@@ -7508,7 +7508,7 @@
       "isExpansion": true,
       "shelf": "7A",
       "minPlayers": 4,
-      "maxPlayers": null,
+      "maxPlayers": 20,
       "maxPlayTime": 90,
       "agePlus": 18,
       "bggLink": "https://boardgamegeek.com/boardgame/333515/cards-against-disney"
@@ -7519,7 +7519,7 @@
       "isExpansion": false,
       "shelf": "7A",
       "minPlayers": 4,
-      "maxPlayers": null,
+      "maxPlayers": 20,
       "maxPlayTime": 90,
       "agePlus": 18,
       "bggLink": "https://boardgamegeek.com/boardgame/50381/cards-against-humanity"
@@ -7530,7 +7530,7 @@
       "isExpansion": false,
       "shelf": "7A",
       "minPlayers": 2,
-      "maxPlayers": null,
+      "maxPlayers": 6,
       "maxPlayTime": 30,
       "agePlus": 18,
       "bggLink": "https://boardgamegeek.com/boardgame/2956/dirty-minds-game-naughty-clues"
@@ -7574,7 +7574,7 @@
       "isExpansion": false,
       "shelf": "7A",
       "minPlayers": 3,
-      "maxPlayers": null,
+      "maxPlayers": 20,
       "maxPlayTime": 30,
       "agePlus": 18,
       "bggLink": "https://boardgamegeek.com/boardgame/142296/funemployed"
@@ -7585,7 +7585,7 @@
       "isExpansion": false,
       "shelf": "7A",
       "minPlayers": 3,
-      "maxPlayers": null,
+      "maxPlayers": 10,
       "maxPlayTime": 30,
       "agePlus": 18,
       "bggLink": "https://boardgamegeek.com/boardgame/193621/joking-hazard"
@@ -8740,7 +8740,7 @@
       "isExpansion": false,
       "shelf": "8F",
       "minPlayers": 2,
-      "maxPlayers": null,
+      "maxPlayers": 6,
       "maxPlayTime": 60,
       "agePlus": 13,
       "bggLink": "https://boardgamegeek.com/boardgame/210315/devils-run-hells-highway"

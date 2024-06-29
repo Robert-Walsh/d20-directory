@@ -424,7 +424,7 @@
       "isExpansion": false,
       "shelf": "11C",
       "minPlayers": 4,
-      "maxPlayers": null,
+      "maxPlayers": 20,
       "maxPlayTime": 40,
       "agePlus": 8,
       "bggLink": ""
@@ -501,7 +501,7 @@
       "isExpansion": false,
       "shelf": "11D",
       "minPlayers": 4,
-      "maxPlayers": null,
+      "maxPlayers": 20,
       "maxPlayTime": 30,
       "agePlus": 10,
       "bggLink": ""

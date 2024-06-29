@@ -4,7 +4,7 @@ export interface Game {
   isExpansion: boolean
   shelf: string
   minPlayers: number
-  maxPlayers?: number | null
+  maxPlayers: number
   maxPlayTime: number
   agePlus: number
   bggLink?: string
@@ -15,8 +15,8 @@ export interface GameFilter {
   categories: string[]
   isExpansion?: boolean
   shelf?: string
-  minPlayers: number
-  maxPlayers: number
+  showPlayers: boolean
+  players?: number
   maxPlayTime?: number
   agePlus?: number
 }

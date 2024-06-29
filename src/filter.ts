@@ -2,23 +2,14 @@ import { Game, GameFilter } from "./Types";
 
 export function applyFilters(games: Game[], gameFilter: GameFilter): Game[] {
 
-  const { name, minPlayers, maxPlayers, categories } = gameFilter
+  const { name, players, categories, showPlayers } = gameFilter
 
   if(name?.length){
     games = games.filter(x => x.name.toLocaleLowerCase().includes(name.toLocaleLowerCase()))
   }
 
-  if(minPlayers) {
-    games = games.filter(x => minPlayers >= x.minPlayers)
-  }
-
-  if(maxPlayers){ 
-    games = games.filter(x => {
-      if(!x.maxPlayers){ 
-        return false
-      }
-      return maxPlayers <= x.maxPlayers
-    })
+  if(players && showPlayers) {
+    games = games.filter(x => players >= x.minPlayers && players <= x.maxPlayers)
   }
 
   if(categories.length > 0){

@@ -1,9 +1,10 @@
-import { AccordionDetails, AccordionSummary, Input, Typography } from '@mui/material';
+import { AccordionDetails, AccordionSummary, Checkbox, Input, Typography } from '@mui/material';
 import Accordion from '@mui/material/Accordion';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import { GameFilter, categoriesOptions } from './Types';
 import { useState } from 'react';
 import { CategoriesSelector } from './CategoriesSelector';
+import { GiTabletopPlayers } from "react-icons/gi";
 
 interface Props {
   filter: GameFilter;
@@ -45,61 +46,33 @@ export const Search = ({ filter, updateFilter }: Props ) => {
         </AccordionDetails>
 
         <AccordionDetails>
-          <label htmlFor="minPlayers" style={{ }}>Min No. Players:</label>
-          <input
-            type="number"
-            id="minPlayers"
-            name="minPlayers"
-            style={{
-              padding: '5px',
-              border: '1px solid #ccc',
-              borderRadius: '4px',
-              width: '25px',
-            }}
-            value={filter.minPlayers}
-            onChange={(e) => updateFilter({ ...filter, minPlayers: Number(e.target.value) })}
-          />
-          <button 
-            onClick={() => updateFilter({ ...filter, minPlayers: (Number(filter.minPlayers) - 1) })} 
-            style={{ marginLeft: '10px', padding: '5px 10px' }}>
-            -
-          </button>
-          <button 
-            onClick={() => updateFilter({ ...filter, minPlayers: (Number(filter.minPlayers) + 1) })} 
-            style={{ marginLeft: '2px', padding: '5px 10px' }}>
-              +
-          </button>
-        
+          <>
+            <label htmlFor="players" style={{ }}>Players:</label>
+            <input
+              type="number"
+              id="players"
+              name="players"
+              style={{
+                padding: '5px',
+                border: '1px solid #ccc',
+                borderRadius: '4px',
+                width: '50px',
+                height: '25px'
+              }}
+              value={filter.players}
+              onChange={(e) => updateFilter({ ...filter, players: Number(e.target.value) })}
+              disabled={!filter.showPlayers}
+            />
+            <></>
+            <Checkbox 
+                  onChange={() => updateFilter({ ...filter, showPlayers: !filter.showPlayers })} 
+                  checked={filter.showPlayers}
+              />
+          </>
+
+          
         </AccordionDetails>
 
-        <AccordionDetails>
-          <label htmlFor="maxPlayers" style={{ }}>Max No. Players:</label>
-          <input
-            type="number"
-            id="maxPlayers"
-            name="maxPlayers"
-            style={{
-              padding: '5px',
-              border: '1px solid #ccc',
-              borderRadius: '4px',
-              width: '35px',
-            }}
-            value={filter.maxPlayers}
-            onChange={(e) => updateFilter({ ...filter, maxPlayers: Number(e.target.value) })}
-          />
-          <button 
-            onClick={() => updateFilter({ ...filter, maxPlayers: (Number(filter.maxPlayers) - 1) })} 
-            style={{ marginLeft: '10px', padding: '5px 10px' }}>
-            -
-          </button>
-          <button 
-            onClick={() => updateFilter({ ...filter, maxPlayers: (Number(filter.maxPlayers) + 1) })} 
-            style={{ marginLeft: '2px', padding: '5px 10px' }}>
-              +
-          </button>
-
-
-        </AccordionDetails>
         <AccordionDetails sx={{padding: '8px 8px 16px'}} >
           <CategoriesSelector filter={filter} updateFilter={updateFilter}/>
         </AccordionDetails>

@@ -13,8 +13,8 @@ export const App = () => {
     name: '',
     categories: [],
     isExpansion: false,
-    minPlayers: 1,
-    maxPlayers: 6,
+    showPlayers: false,
+    players: undefined,
     maxPlayTime: undefined,
     agePlus: undefined
   })
