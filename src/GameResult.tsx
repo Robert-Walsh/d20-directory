@@ -27,12 +27,14 @@ export const GameResult = ({ game }: Props) => {
 
   return (
     <Card variant="outlined" sx={{margin: '10px 8px'}}>
-      <Box sx={{ p: 2, backgroundColor: 'white'}}>
+      <Box sx={{ p: 2, backgroundColor: 'white', backgroundImage: 'url(./background-icons.png)', backgroundRepeat: 'repeat', backgroundPosition: 'center'}}>
         <Stack direction="row" justifyContent="space-between" alignItems="center">
           <Typography gutterBottom component="div" maxWidth={'75%'}>
             <div className='flex-container'>
 
-              {name}          
+              <div style={{ fontSize: '16px', fontWeight: 'bold', marginTop: '1px'}}>
+                {name}  
+              </div>        
               { bggLink && <img src={'/BGG.jpeg'} className="bgg-link" alt="BGG Logo" onClick={() => window.open(bggLink)}/>}
             </div>
 
