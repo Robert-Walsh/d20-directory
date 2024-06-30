@@ -44,7 +44,7 @@ export const GameResult = ({ game }: Props) => {
           <Typography gutterBottom component="div" sx={{fontWeight: 'bold'}}>
             <div className='flex-row'>
               {shelf}
-              {!!shelf && <GiBookshelf style={{'marginLeft': '3px'}}/> }
+              {!!shelf && <GiBookshelf style={{'marginLeft': '3px', marginTop: '0px', width: '25px', height: '25px'}}/> }
             </div>
           </Typography>
         </Stack>
